@@ -1,0 +1,11 @@
+# slide.desktop
+# this file should be in either
+#   /usr/share/applications  
+#   ~/.local/share/applications
+# this file defines an application that can be associated with a file in Gnome or KDE
+[Desktop Entry]
+Name=Display Slides
+Exec=sh -c "/usr/bin/env python \$HOME/prj/slide/slide.py %f"
+Icon=
+Type=Application
+Categories=GTK;GNOME;Utility;
